@@ -8,7 +8,7 @@ interface Item {
 function calcularTotal(itens: Item[]): number {
   let total = 0;
   for (const item of itens) {
-    total += item.preco;
+    total += item.preco;    
   }
   return total;
 }
